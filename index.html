@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Animal Display System</title>
+        <link rel= "stylesheet" type="text/css" href="css/style.css">
+        <script src="js/lib/jquery-3.4.1.min.js"></script>
+    <script src="js/script1.js"></script>
+
+    </head>
+    <body>
+        <div id= "container">
+            <div class="top">
+            <img src="img/banner.jpg" alt="Banner" class="banner" >
+            <div class="content">
+            <h1 cla= "zoo"><a href="#">Really Huge Zoo</a></h1>
+            </div>
+            </div>
+            <div id="block">
+                <form>
+                <button type="button" class="createAnimal">Create an Animal</button><br>
+                <button type="button" class="showAnimals"><a href="animals.html">Show Animals</a></button>
+                </form>
+            </div> 
+        <form id="create" method="POST">
+            <h3>INPUT THE DETAILS OF THE ANIMAL</h3>
+            <div class="input-style">
+                    <label>Name</label>
+                    <input type="text" id="space" placeholder="Please input animal name"></input>
+            </div>
+            <div class="input-style">
+                    <label >Specie</label>
+                    <input type="text" id="" placeholder="Please input specie name"></input>
+            </div>
+            <div class="input-style">
+                    <label>Mode of Feeding</label>
+                    <select>
+                    <option value = "carnivore">Carnivore</option>
+                    <option value="herbivore">Herbivore</option>
+                    <option value="omnivore">Omnivore</option>
+                    </select>
+            </div>
+            <div class="input-style">
+                    <label>Body covering</label>
+                    <select>
+                    <option value ="feather">Feather</option>
+                    <option value="fur">Fur</option>
+                    <option value="scale">Scales</option>
+                    </select>
+            </div>
+                
+                <button type="submit" id="addAnimal">Add animal</button>
+            </form>
+        <script> 
+                $(document).ready(function(){
+                     $("#create").hide();
+                     $(".createAnimal").click(function(){
+                         $("#create").toggle();
+                     });
+                     $("#addAnimal").click(function(){
+                         alert("This animal has been added!")
+                     });
+                });
+        </script>
+        </div>
+    </body>
+    </html>

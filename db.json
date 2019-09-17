@@ -1,0 +1,7 @@
+{
+   "animals" :[{  "name": "Girrafe", "specie": "Mammal", "feeding" : "Herbivore", "covering" : "fur" }
+   ,
+     { "name": "Eagle", "specie": "Bird", "feeding" : "Carnivore", "covering" : "feather" }
+   ,
+   { "name": "Vulture", "specie": "Bird", "feeding" : "Carnivore", "covering" : "feather" }]
+}
