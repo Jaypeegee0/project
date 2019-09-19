@@ -1,3 +1,10 @@
+body{
+    background-image: linear-gradient(#8b8572,#ffffff); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .input-style{
     margin: 10px 0px
 }
@@ -6,10 +13,6 @@ table{
     margin: 30px auto;
     text-align: left
 }
-.container{
-    color: #698081
-}
-
 .addAnimal{
     padding:10px;
     font-size: 15px;
@@ -23,46 +26,29 @@ table{
     height: auto;
 }
 
-.top{
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
-}
-.top .content{
-    position: absolute;
-    bottom: 0;
-    background: rgb(0,0,0);
-    background: rgba(182, 178, 178, 0.014);
-    width: 100%;
-    padding: 20px;
-}
-.createAnimal{
-    font-size: 20px;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-    border-radius: 8px;
-    border: 1px solid navy;
-}
-.createAnimals:hover{
-    box-shadow: 0 8px 16px 0 rgba(0, 0,0, 0.2), 0 6px 20px 0 rgba(0, 0,0, 0.2)
-}
-.showAnimals{
-    font-size: 20px;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  ;
-    border-radius: 8px;
-    border: 1px solid navy;
-}
-.showAnimals:hover{
-    box-shadow: 0 8px 16px 0 rgba(0, 0,0, 0.2), 0 6px 20px 0 rgba(0, 0,0, 0.2)
-}
-
 h1{
     font-family: cursive;
     text-align: center
 }
 
 form{
-    background-color: rgba(172, 146, 113, 0.349);
+    /* background-color: rgba(172, 146, 113, 0.349); */
     margin: 10px 0px;
+}
+
+.top{
+    opacity: 0.5;
+    width: 100%;
+    align-content: center;
+}
+
+.jumbotron{
+    background: url('img/bg.jpg') no-repeat center center fixed;
+}
+#carouselExampleIndicators{
+    text-align: center;
+    align-self: center;
+    height: auto;
+    width: 55%;
+    margin: auto;
 }

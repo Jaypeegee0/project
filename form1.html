@@ -4,9 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Add Animal</title>
 </head>
 <body>
-    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html"><img src="img/images.png" width="60" height="30" class="d-inline-block align-top" >DecaZoo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="animals.html">View Animals</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                                </li>
+                        </ul>
+                </div>
+        </nav>
+        <!-- <div class="top">
+        <img src="img/banner.jpg" alt="Banner" class="banner">
+        </div> -->
+    <!-- <form  action="http://localhost:3000/animals" method="POST" id="create" class="createForm">
+        <h3>UPDATE DETAILS OF THE ANIMAL</h3>
+        <div class="form-group">
+                <label>Name</label>
+                <input type="text" name="name" id="animalName" placeholder="Please input animal name"></input>
+        </div>
+        <div class="form-group">
+                <label>Specie</label>
+                <select id="specie" name="specie">
+                <option value = "Mammal">Mammal</option>
+                <option value="Amphibian">Amphibian</option>
+                <option value="Bird">Bird</option>
+                <option value="Fish">Fish</option>
+                <option value="Reptile">Reptile</option>
+                </select>
+        </div>
+        <div class="form-group">
+                <label>Mode of Feeding</label>
+                <select id="feeding" name="feeding">
+                <option value = "Carnivore">Carnivore</option>
+                <option value="Herbivore">Herbivore</option>
+                <option value="Omnivore">Omnivore</option>
+                </select>
+        </div>
+        <div class="form-group">
+                <label>Body covering</label>
+                <select id="covering" name="covering">
+                <option value ="Feather">Feather</option>
+                <option value="Fur">Fur</option>
+                <option value="Scale">Scales</option>
+                </select>
+        </div>
+            <button type="submit" value="submit" id= "editAnimal" class="add"> Update details</button>
+        </form> -->
+        <table id="viewTable" class="table table-bordered table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Name</th>
+                        <th>Specie</th>
+                        <th>Mode of feeding</th>
+                        <th>Body covering</th>
+                        <th>View</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <!-- <script>
+        $("#viewAnimal").click( function(){           
+            $.get("http://localhost:3000/animals", function(data){
+        for(var i =0; i<data.length;i++){$("#viewTable tbody").append(`<tr><td>${data[i].id}</td>
+        <td>${data[i].data}</td>
+        <td>${data[i].specie}</td>
+        <td>${data[i].feeding}</td>
+        <td>${data[i].covering}</td>
+        <td><button type ='button' class ='btn btn-info' id='editAnimal'><a href= 'form1.html?id=${data[i].id}'>View</a></button></td>
+        <td><button type ='button' class ='btn btn-danger delete' id = 'deleteAnimal'>Delete</button></td></tr>
+        `);}
+            });
+        });
+            </script> -->
 </body>
+    <script src="js/lib/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
 </html>

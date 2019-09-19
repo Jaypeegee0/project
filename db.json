@@ -1,7 +1,46 @@
 {
-   "animals" :[{  "name": "Girrafe", "specie": "Mammal", "feeding" : "Herbivore", "covering" : "fur" }
-   ,
-     { "name": "Eagle", "specie": "Bird", "feeding" : "Carnivore", "covering" : "feather" }
-   ,
-   { "name": "Vulture", "specie": "Bird", "feeding" : "Carnivore", "covering" : "feather" }]
+  "animals": [
+    {
+      "name": "bjbh",
+      "specie": "Mammal",
+      "feeding": "Carnivore",
+      "covering": "Feather",
+      "id": 1
+    },
+    {
+      "name": "ihibk",
+      "specie": "Mammal",
+      "feeding": "Carnivore",
+      "covering": "Feather",
+      "id": 2
+    },
+    {
+      "name": "jvjhn",
+      "specie": "Mammal",
+      "feeding": "Carnivore",
+      "covering": "Feather",
+      "id": 3
+    },
+    {
+      "name": "jvjhn",
+      "specie": "Mammal",
+      "feeding": "Carnivore",
+      "covering": "Feather",
+      "id": 4
+    },
+    {
+      "name": "hi",
+      "specie": "Mammal",
+      "feeding": "Carnivore",
+      "covering": "Feather",
+      "id": 5
+    },
+    {
+      "name": "n",
+      "specie": "Mammal",
+      "feeding": "Carnivore",
+      "covering": "Feather",
+      "id": 6
+    }
+  ]
 }
