@@ -1,14 +1,18 @@
 <!DOCTYPE html>
     <html lang="en">
     <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- <script src="js/lib/jquery-3.4.1.min.js"></script>
+        <script src="js/script2.js"></script> -->
         <title>Animal Display System</title>
-        <link rel= "stylesheet" type="text/css" href="css/style.css">
-        <script src="js/lib/jquery-3.4.1.min.js"></script>
-    <script src="js/script1.js"></script>
-
     </head>
+
     <body>
         <div id= "container">
+            
             <div class="top">
             <img src="img/banner.jpg" alt="Banner" class="banner" >
             <div class="content">
@@ -17,50 +21,13 @@
             </div>
             <div id="block">
                 <form>
-                <button type="button" class="createAnimal">Create an Animal</button><br>
+                <button type="button" class="btn-light"><a href="form.html">Create an Animal</a></button><br>
                 <button type="button" class="showAnimals"><a href="animals.html">Show Animals</a></button>
                 </form>
             </div> 
-        <form id="create" method="POST">
-            <h3>INPUT THE DETAILS OF THE ANIMAL</h3>
-            <div class="input-style">
-                    <label>Name</label>
-                    <input type="text" id="space" placeholder="Please input animal name"></input>
-            </div>
-            <div class="input-style">
-                    <label >Specie</label>
-                    <input type="text" id="" placeholder="Please input specie name"></input>
-            </div>
-            <div class="input-style">
-                    <label>Mode of Feeding</label>
-                    <select>
-                    <option value = "carnivore">Carnivore</option>
-                    <option value="herbivore">Herbivore</option>
-                    <option value="omnivore">Omnivore</option>
-                    </select>
-            </div>
-            <div class="input-style">
-                    <label>Body covering</label>
-                    <select>
-                    <option value ="feather">Feather</option>
-                    <option value="fur">Fur</option>
-                    <option value="scale">Scales</option>
-                    </select>
-            </div>
-                
-                <button type="submit" id="addAnimal">Add animal</button>
-            </form>
-        <script> 
-                $(document).ready(function(){
-                     $("#create").hide();
-                     $(".createAnimal").click(function(){
-                         $("#create").toggle();
-                     });
-                     $("#addAnimal").click(function(){
-                         alert("This animal has been added!")
-                     });
-                });
-        </script>
         </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
     </html>
