@@ -1,39 +1,18 @@
 {
   "animals": [
     {
-      "name": "Hello",
-      "specie": "Mammal",
-      "feeding": "Carnivore",
-      "covering": "Feather",
-      "id": 1
-    },
-    {
-      "name": "fsd",
-      "specie": "Mammal",
-      "feeding": "Carnivore",
-      "covering": "Feather",
-      "id": 2
-    },
-    {
-      "name": "jb",
-      "specie": "Mammal",
-      "feeding": "Carnivore",
-      "covering": "Feather",
-      "id": 3
-    },
-    {
-      "name": "fedf",
-      "specie": "Mammal",
-      "feeding": "Carnivore",
-      "covering": "Feather",
-      "id": 4
-    },
-    {
       "name": "fedf",
       "specie": "Mammal",
       "feeding": "Carnivore",
       "covering": "Feather",
       "id": 5
+    },
+    {
+      "name": "Day",
+      "specie": "Mammal",
+      "feeding": "Carnivore",
+      "covering": "Feather",
+      "id": 6
     }
   ]
 }
